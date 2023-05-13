@@ -10,3 +10,11 @@ resource "aws_ecr_repository" "test" {
   }
 }
 
+#resource "aws_iam_user" "githubactions" {
+#  name = "githubactions"
+#}
+
+#resource "aws_iam_user_policy_attachment" "attach_ecr_policy" {
+#  policy_arn = "arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryFullAccess"
+#  user = aws_iam_user.githubactions.name
+#}
