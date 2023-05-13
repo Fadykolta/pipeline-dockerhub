@@ -2,3 +2,6 @@ terraform
 main.tf
 .terraform
 .terraform.lock.hcl
+yaml
+terraform.tfstate
+terraform.tfstate.backup
